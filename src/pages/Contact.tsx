@@ -82,7 +82,7 @@ const Contact = () => {
         <div className="container text-center">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-navy-foreground mb-4">Book an Appointment</h1>
           <p className="text-navy-foreground/70 max-w-xl mx-auto">
-            Schedule your visit at Smile Avenue Dental Clinic or call us directly.
+            Schedule your visit at Beyond Smile Dental Clinic or call us directly.
           </p>
         </div>
       </section>
@@ -165,7 +165,7 @@ const Contact = () => {
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <div>
                   <p className="font-semibold text-foreground">Address</p>
-                  <p className="text-sm text-muted-foreground">#492/J, Ground Floor, 12th Cross, Shivaji Rd, near Sky Fitness Gym, N R Mohalla, Mysuru, Karnataka 570007</p>
+                  <p className="text-sm text-muted-foreground"> Buddha marga, Bannur Rd, Siddhartha Layout, Mysuru, Karnataka 570011</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -180,9 +180,8 @@ const Contact = () => {
 
             <div className="rounded-xl overflow-hidden shadow-lg border h-[250px]">
               <iframe
-                title="Smile Avenue Dental Clinic location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.3!2d76.64!3d12.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sN+R+Mohalla%2C+Mysuru!5e0!3m2!1sen!2sin!4v1"
-                width="100%"
+                title="Beyond Smile Dental Clinic location"
+                src="https://share.google/erhdHQUbzjHFFKl4J"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
@@ -193,7 +192,8 @@ const Contact = () => {
 
             <p className="text-sm text-muted-foreground">
               <strong className="text-foreground">Need urgent care?</strong> Call us at{" "}
-              <a href="tel:+918073388638" className="text-primary font-semibold">080733 88638</a>.
+              <a href="tel:+918073388638" className="text-primary font-semibold">078299 01966
+</a>.
             </p>
           </div>
         </div>
