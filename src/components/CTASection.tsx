@@ -9,7 +9,7 @@ const CTASection = () => (
         Ready for a Healthier Smile?
       </h2>
       <p className="text-navy-foreground/70 max-w-lg mx-auto mb-8">
-        Book your appointment today at Smile Avenue Dental Clinic. Walk-ins welcome during clinic hours.
+        Book your appointment today at Beyond Smiles Dental Clinic. Walk-ins welcome during clinic hours.
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <Button variant="hero" size="lg" asChild>
@@ -19,9 +19,9 @@ const CTASection = () => (
           </Link>
         </Button>
         <Button variant="hero-outline" size="lg" asChild>
-          <a href="tel:+918073388638">
+          <a href="tel:+917829901966">
             <Phone className="w-5 h-5 mr-2" />
-            080733 88638
+            078299 01966
           </a>
         </Button>
       </div>

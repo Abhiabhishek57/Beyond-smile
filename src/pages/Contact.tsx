@@ -14,10 +14,12 @@ const treatments = [
   "Cosmetic Dentistry",
   "Crowns & Bridges",
   "Tooth Extraction",
+  "Wisdom Tooth Extraction",
   "Dental Fillings",
   "Pediatric Dentistry",
   "Teeth Whitening",
   "Dental Checkup",
+  "Emergency Care",
   "Other",
 ];
 
@@ -82,7 +84,7 @@ const Contact = () => {
         <div className="container text-center">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-navy-foreground mb-4">Book an Appointment</h1>
           <p className="text-navy-foreground/70 max-w-xl mx-auto">
-            Schedule your visit at Beyond Smile Dental Clinic or call us directly.
+            Schedule your visit at Beyond Smiles Dental Clinic or call us directly.
           </p>
         </div>
       </section>
@@ -101,8 +103,7 @@ const Contact = () => {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="phone">Phone Number</Label>
-                <Input id="phone" name="phone" type="tel" placeholder="+91 078299 01966
-" required maxLength={15} />
+                <Input id="phone" name="phone" type="tel" placeholder="+91 78299 01966" required maxLength={15} />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email (optional)</Label>
@@ -135,17 +136,17 @@ const Contact = () => {
             <div>
               <h2 className="text-2xl font-heading font-bold text-foreground mb-6">Other Ways to Reach Us</h2>
               <div className="space-y-5">
-                <a href="tel:+918073388638" className="flex items-center gap-4 p-4 rounded-xl border bg-card hover:shadow-sm transition-shadow">
+                <a href="tel:+917829901966" className="flex items-center gap-4 p-4 rounded-xl border bg-card hover:shadow-sm transition-shadow">
                   <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center shrink-0">
                     <Phone className="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <p className="font-semibold text-card-foreground">Call Us</p>
-                    <p className="text-sm text-primary">080733 88638</p>
+                    <p className="text-sm text-primary">078299 01966</p>
                   </div>
                 </a>
                 <a
-                  href="https://wa.me/918073388638?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Smile%20Avenue"
+                  href="https://wa.me/917829901966?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Beyond%20Smiles%20Dental%20Clinic"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl border bg-card hover:shadow-sm transition-shadow"
@@ -166,7 +167,7 @@ const Contact = () => {
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <div>
                   <p className="font-semibold text-foreground">Address</p>
-                  <p className="text-sm text-muted-foreground"> Buddha marga, Bannur Rd, Siddhartha Layout, Mysuru, Karnataka 570011</p>
+                  <p className="text-sm text-muted-foreground">Buddha Marga, Bannur Rd, Siddhartha Layout, Mysuru, Karnataka 570011</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -181,8 +182,9 @@ const Contact = () => {
 
             <div className="rounded-xl overflow-hidden shadow-lg border h-[250px]">
               <iframe
-                title="Beyond Smile Dental Clinic location"
-                src="https://share.google/erhdHQUbzjHFFKl4J"
+                title="Beyond Smiles Dental Clinic location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.6!2d76.6356!3d12.2856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSiddhartha+Layout%2C+Mysuru!5e0!3m2!1sen!2sin!4v1"
+                width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
@@ -193,8 +195,7 @@ const Contact = () => {
 
             <p className="text-sm text-muted-foreground">
               <strong className="text-foreground">Need urgent care?</strong> Call us at{" "}
-              <a href="tel:+918073388638" className="text-primary font-semibold">078299 01966
-</a>.
+              <a href="tel:+917829901966" className="text-primary font-semibold">078299 01966</a>.
             </p>
           </div>
         </div>

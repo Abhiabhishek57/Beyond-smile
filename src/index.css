@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,40 +6,41 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 200 25% 15%;
+    --background: 210 40% 98%;
+    --foreground: 215 25% 17%;
 
     --card: 0 0% 100%;
-    --card-foreground: 200 25% 15%;
+    --card-foreground: 215 25% 17%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 200 25% 15%;
+    --popover-foreground: 215 25% 17%;
 
-    --primary: 174 55% 38%;
+    --primary: 160 100% 39%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 180 20% 95%;
-    --secondary-foreground: 200 25% 15%;
+    --secondary: 210 20% 95%;
+    --secondary-foreground: 215 25% 17%;
 
-    --muted: 180 10% 96%;
-    --muted-foreground: 200 10% 45%;
+    --muted: 210 15% 96%;
+    --muted-foreground: 215 10% 45%;
 
-    --accent: 174 55% 95%;
-    --accent-foreground: 174 55% 25%;
+    --accent: 160 60% 95%;
+    --accent-foreground: 160 80% 22%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 180 15% 90%;
-    --input: 180 15% 90%;
-    --ring: 174 55% 38%;
+    --border: 210 15% 90%;
+    --input: 210 15% 90%;
+    --ring: 160 100% 39%;
 
     --radius: 0.75rem;
 
-    --navy: 210 50% 18%;
+    --navy: 222 47% 11%;
     --navy-foreground: 0 0% 100%;
-    --teal-light: 174 40% 96%;
+    --teal-light: 160 50% 96%;
     --gold: 40 80% 55%;
+    --accent-blue: 217 91% 60%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -52,29 +53,30 @@
   }
 
   .dark {
-    --background: 200 25% 8%;
+    --background: 222 47% 6%;
     --foreground: 0 0% 95%;
-    --card: 200 25% 10%;
+    --card: 222 47% 8%;
     --card-foreground: 0 0% 95%;
-    --popover: 200 25% 10%;
+    --popover: 222 47% 8%;
     --popover-foreground: 0 0% 95%;
-    --primary: 174 55% 45%;
+    --primary: 160 100% 44%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 200 20% 15%;
+    --secondary: 222 30% 15%;
     --secondary-foreground: 0 0% 95%;
-    --muted: 200 15% 15%;
-    --muted-foreground: 200 10% 60%;
-    --accent: 174 30% 15%;
-    --accent-foreground: 174 55% 70%;
+    --muted: 222 20% 15%;
+    --muted-foreground: 215 10% 60%;
+    --accent: 160 40% 15%;
+    --accent-foreground: 160 80% 70%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 95%;
-    --border: 200 15% 20%;
-    --input: 200 15% 20%;
-    --ring: 174 55% 45%;
-    --navy: 210 50% 12%;
+    --border: 222 15% 20%;
+    --input: 222 15% 20%;
+    --ring: 160 100% 44%;
+    --navy: 222 47% 8%;
     --navy-foreground: 0 0% 95%;
-    --teal-light: 174 30% 12%;
+    --teal-light: 160 30% 12%;
     --gold: 40 70% 50%;
+    --accent-blue: 217 91% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

@@ -18,7 +18,7 @@ const DoctorIntro = () => (
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src={doctorImg}
-              alt="Dr. Mohammad Azahar at Smile Avenue Dental Clinic"
+              alt="Lead dentist at Beyond Smiles Dental Clinic"
               className="w-full h-auto object-cover aspect-[4/5]"
               loading="lazy"
             />
@@ -34,7 +34,7 @@ const DoctorIntro = () => (
             Where Advanced Technology Meets Compassionate Care
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            At Smile Avenue Dental Clinic, we believe every patient deserves world-class dental treatment in a comfortable, caring environment. Located in N R Mohalla, Mysuru on Shivaji Road, our clinic combines cutting-edge technology with a gentle, patient-first approach led by Dr. Mohammad Azahar.
+            At Beyond Smiles Dental Clinic, we believe every patient deserves world-class dental treatment in a comfortable, caring environment. Located in Siddhartha Layout, Mysuru on Bannur Road, our clinic combines cutting-edge technology with a gentle, patient-first approach.
           </p>
           <ul className="space-y-3">
             {highlights.map((h) => (

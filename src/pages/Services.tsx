@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Stethoscope, Sparkles, Smile, ShieldCheck, Crown, Baby, Scan, Scissors, Sun, Layers } from "lucide-react";
+import { Stethoscope, Sparkles, Smile, ShieldCheck, Crown, Baby, Scan, Scissors, Sun, Layers, HeartPulse, Users } from "lucide-react";
 
 const services = [
   {
@@ -23,9 +23,9 @@ const services = [
   },
   {
     icon: Scissors,
-    title: "Tooth Extraction",
-    desc: "Gentle, painless extractions including wisdom tooth removal and impacted tooth extraction. We prioritize your comfort with modern anesthesia techniques.",
-    keywords: "Tooth extraction Mysuru",
+    title: "Wisdom Tooth Extraction",
+    desc: "Safe and painless wisdom tooth removal with modern anesthesia. Our experienced team handles even complex impacted tooth extractions with care.",
+    keywords: "Wisdom tooth removal Mysore",
   },
   {
     icon: Crown,
@@ -63,6 +63,18 @@ const services = [
     desc: "Professional whitening treatments that deliver dramatic results. Safe, effective, and long-lasting brightness for a confident smile.",
     keywords: "Teeth whitening Mysuru",
   },
+  {
+    icon: Users,
+    title: "Family Dental Care",
+    desc: "Complete dental care for the whole family under one roof. From toddlers to grandparents, we provide personalized treatments for every age group.",
+    keywords: "Family dentist Mysuru",
+  },
+  {
+    icon: HeartPulse,
+    title: "Emergency Dental Care",
+    desc: "Immediate attention for dental emergencies including severe toothache, broken teeth, and dental trauma. Call us for urgent appointments.",
+    keywords: "Emergency dentist Mysuru",
+  },
 ];
 
 const Services = () => (
@@ -71,7 +83,7 @@ const Services = () => (
       <div className="container text-center">
         <h1 className="text-4xl md:text-5xl font-heading font-bold text-navy-foreground mb-4">Our Services</h1>
         <p className="text-navy-foreground/70 max-w-xl mx-auto">
-          Comprehensive dental treatments for the whole family, delivered with advanced technology and gentle care at Smile Avenue.
+          Comprehensive dental treatments for the whole family, delivered with advanced technology and gentle care at Beyond Smiles.
         </p>
       </div>
     </section>

@@ -7,7 +7,9 @@ const navItems = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
   { label: "Services", path: "/services" },
+  { label: "Gallery", path: "/gallery" },
   { label: "Reviews", path: "/reviews" },
+  { label: "FAQ", path: "/faq" },
   { label: "Contact", path: "/contact" },
 ];
 
@@ -20,15 +22,15 @@ const Header = () => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-heading font-bold text-lg">S</span>
+            <span className="text-primary-foreground font-heading font-bold text-lg">B</span>
           </div>
           <div className="leading-tight">
-            <span className="font-heading font-bold text-lg text-foreground">Smile Avenue</span>
+            <span className="font-heading font-bold text-lg text-foreground">Beyond Smiles</span>
             <span className="hidden sm:block text-xs text-muted-foreground">Dental Clinic, Mysuru</span>
           </div>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden lg:flex items-center gap-1">
           {navItems.map((item) => (
             <Link
               key={item.path}
@@ -45,15 +47,15 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a href="tel:+918073388638" className="hidden sm:flex items-center gap-2 text-sm font-semibold text-primary">
+          <a href="tel:+917829901966" className="hidden sm:flex items-center gap-2 text-sm font-semibold text-primary">
             <Phone className="w-4 h-4" />
-            080733 88638
+            078299 01966
           </a>
           <Button variant="nav" size="sm" asChild>
             <Link to="/contact">Book Now</Link>
           </Button>
           <button
-            className="md:hidden p-2 text-foreground"
+            className="lg:hidden p-2 text-foreground"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
@@ -63,7 +65,7 @@ const Header = () => {
       </div>
 
       {mobileOpen && (
-        <div className="md:hidden border-t bg-background animate-fade-in">
+        <div className="lg:hidden border-t bg-background animate-fade-in">
           <nav className="container py-4 flex flex-col gap-1">
             {navItems.map((item) => (
               <Link
@@ -79,9 +81,9 @@ const Header = () => {
                 {item.label}
               </Link>
             ))}
-            <a href="tel:+918073388638" className="flex items-center gap-2 px-4 py-3 text-sm font-semibold text-primary">
+            <a href="tel:+917829901966" className="flex items-center gap-2 px-4 py-3 text-sm font-semibold text-primary">
               <Phone className="w-4 h-4" />
-              080733 88638
+              078299 01966
             </a>
           </nav>
         </div>

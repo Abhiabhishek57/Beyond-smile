@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const reviews = [
-  { name: "Verified Patient", text: "Azar doctor gave best service and guided me well and he's very cool. Highly recommend!", treatment: "General Dentistry", rating: 5 },
+  { name: "Verified Patient", text: "Excellent dental care with thorough explanations. The doctor was very gentle and the whole team made me feel comfortable.", treatment: "General Dentistry", rating: 5 },
   { name: "Verified Patient", text: "Highly professional staff and well behaved and satisfactory dental care. Will definitely come back.", treatment: "Dental Consultation", rating: 5 },
   { name: "Verified Patient", text: "Best place and highly recommend for all. The clinic is clean, hygienic and the doctor is very skilled.", treatment: "Dental Care", rating: 5 },
-  { name: "Happy Patient", text: "Very gentle and painless treatment. Dr. Azahar explained everything clearly before starting the procedure.", treatment: "Root Canal", rating: 5 },
+  { name: "Happy Patient", text: "Very gentle and painless treatment. Everything was explained clearly before starting the procedure.", treatment: "Root Canal", rating: 5 },
   { name: "Satisfied Patient", text: "Got my teeth cleaned here. The experience was great — no pain at all and the staff was very friendly.", treatment: "Teeth Cleaning", rating: 5 },
-  { name: "Regular Patient", text: "Been visiting Smile Avenue for all my family's dental needs. Consistent quality and caring approach every time.", treatment: "Family Dentistry", rating: 5 },
-  { name: "Happy Patient", text: "The extraction was completely painless. I was very nervous but Dr. Azahar made me feel comfortable throughout.", treatment: "Tooth Extraction", rating: 5 },
-  { name: "Grateful Patient", text: "Affordable prices and excellent quality. This is the best dental clinic in N R Mohalla area without a doubt.", treatment: "Dental Fillings", rating: 5 },
+  { name: "Regular Patient", text: "Been visiting Beyond Smiles for all my family's dental needs. Consistent quality and caring approach every time.", treatment: "Family Dentistry", rating: 5 },
+  { name: "Happy Patient", text: "The extraction was completely painless. I was very nervous but the doctor made me feel comfortable throughout.", treatment: "Tooth Extraction", rating: 5 },
+  { name: "Grateful Patient", text: "Affordable prices and excellent quality. This is the best dental clinic in Siddhartha Layout area without a doubt.", treatment: "Dental Fillings", rating: 5 },
   { name: "Satisfied Patient", text: "My child had a great experience. The doctor was very patient with kids and made the visit fun.", treatment: "Pediatric Dentistry", rating: 5 },
 ];
 
@@ -27,7 +27,7 @@ const Reviews = () => (
           5.0 Rating from 107+ Reviews
         </h1>
         <p className="text-navy-foreground/70 max-w-xl mx-auto">
-          Don't just take our word for it — hear from our happy patients at Smile Avenue Dental Clinic.
+          Don't just take our word for it — hear from our happy patients at Beyond Smiles Dental Clinic.
         </p>
       </div>
     </section>
@@ -53,7 +53,7 @@ const Reviews = () => (
         </div>
 
         <div className="text-center mt-12 space-y-4">
-          <p className="text-muted-foreground">Ready to experience the Smile Avenue difference?</p>
+          <p className="text-muted-foreground">Ready to experience the Beyond Smiles difference?</p>
           <Button variant="default" size="lg" asChild>
             <Link to="/contact">Book Your Appointment</Link>
           </Button>

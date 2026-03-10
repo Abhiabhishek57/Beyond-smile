@@ -12,9 +12,9 @@ const About = () => (
   <div>
     <section className="bg-navy py-16 md:py-24">
       <div className="container text-center">
-        <h1 className="text-4xl md:text-5xl font-heading font-bold text-navy-foreground mb-4">About Smile Avenue</h1>
+        <h1 className="text-4xl md:text-5xl font-heading font-bold text-navy-foreground mb-4">About Beyond Smiles</h1>
         <p className="text-navy-foreground/70 max-w-xl mx-auto">
-          N R Mohalla, Mysuru's trusted dental clinic — 5.0 rated with 107+ Google reviews.
+          Siddhartha Layout, Mysuru's trusted dental clinic — 5.0 rated with 107+ Google reviews.
         </p>
       </div>
     </section>
@@ -25,14 +25,14 @@ const About = () => (
           <span className="text-sm font-semibold text-primary tracking-wide uppercase">Our Story</span>
           <h2 className="text-3xl font-heading font-bold text-foreground">A Mission to Make Dental Care Accessible</h2>
           <p className="text-muted-foreground leading-relaxed">
-            Smile Avenue Dental Clinic was founded with a simple mission: to provide world-class dental treatments in Mysuru at affordable prices. Located on Shivaji Road in N R Mohalla, near Sky Fitness Gym, we've built a reputation for gentle, effective dental care that keeps patients coming back.
+            Beyond Smiles Dental Clinic was founded with a simple mission: to provide world-class dental treatments in Mysuru at affordable prices. Located on Bannur Road in Siddhartha Layout, we've built a reputation for gentle, effective dental care that keeps patients coming back.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             Our clinic is equipped with modern dental instruments, advanced sterilization systems, and a comfortable environment — ensuring every treatment is precise, painless, and safe.
           </p>
         </div>
         <div className="rounded-2xl overflow-hidden shadow-xl">
-          <img src={clinicImg} alt="Smile Avenue Dental Clinic treatment room" className="w-full h-auto object-cover aspect-video" loading="lazy" />
+          <img src={clinicImg} alt="Beyond Smiles Dental Clinic treatment room" className="w-full h-auto object-cover aspect-video" loading="lazy" />
         </div>
       </div>
     </section>
@@ -40,13 +40,13 @@ const About = () => (
     <section className="py-16 md:py-24 bg-secondary">
       <div className="container grid md:grid-cols-2 gap-12 items-center">
         <div className="rounded-2xl overflow-hidden shadow-xl order-2 md:order-1">
-          <img src={doctorImg} alt="Dr. Mohammad Azahar at Smile Avenue Dental Clinic" className="w-full h-auto object-cover aspect-[3/4]" loading="lazy" />
+          <img src={doctorImg} alt="Lead dentist at Beyond Smiles Dental Clinic" className="w-full h-auto object-cover aspect-[3/4]" loading="lazy" />
         </div>
         <div className="space-y-5 order-1 md:order-2">
           <span className="text-sm font-semibold text-primary tracking-wide uppercase">Meet the Doctor</span>
-          <h2 className="text-3xl font-heading font-bold text-foreground">Dr. Mohammad Azahar</h2>
+          <h2 className="text-3xl font-heading font-bold text-foreground">Expert Dental Team</h2>
           <p className="text-muted-foreground leading-relaxed">
-            Dr. Mohammad Azahar leads Smile Avenue Dental Clinic with a philosophy of gentle, patient-centered care. Known for his calm demeanor and thorough approach, he ensures every patient receives personalized attention and the best possible treatment outcomes.
+            Our team at Beyond Smiles Dental Clinic is committed to gentle, patient-centered care. Known for a calm demeanor and thorough approach, we ensure every patient receives personalized attention and the best possible treatment outcomes.
           </p>
           <ul className="space-y-2">
             {["Expert in general & cosmetic dentistry", "Specializes in painless procedures", "107+ five-star patient reviews", "Trusted by families across Mysuru"].map((q) => (
